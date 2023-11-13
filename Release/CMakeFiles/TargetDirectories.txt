@@ -1,0 +1,3 @@
+/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/CMakeFiles/AIR.dir
+/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/CMakeFiles/edit_cache.dir
+/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/CMakeFiles/rebuild_cache.dir

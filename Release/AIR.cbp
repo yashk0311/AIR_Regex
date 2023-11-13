@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AIR"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AIR">
+				<Option output="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/AIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/include"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/include/json"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/batching"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/collector"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/configuration"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/dataflow"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/input"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/serialization"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/winagg"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegesMatching"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 AIR"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AIR/fast">
+				<Option output="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/AIR" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/include"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/include/json"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/batching"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/collector"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/configuration"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/dataflow"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/input"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/serialization"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/winagg"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m"/>
+					<Add directory="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegesMatching"/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 AIR/fast"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j12 -f &quot;/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/EventCollector_rp.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/EventCollector_rp.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/EventFilter_rp.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/EventFilter_rp.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/EventGenerator_rp.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/EventGenerator_rp.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/FullAggregator_rp.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/RegexMatching/FullAggregator_rp.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/batching/Map.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/batching/Map.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/batching/Reduce.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/batching/Reduce.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/collector/BinCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/collector/BinCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/collector/RowCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/collector/RowCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication/Message.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication/Message.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication/Window.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication/Window.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/configuration/HashConfig.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector/BinConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector/BinConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector/PartRowConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector/PartRowConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector/RowConnector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/connector/RowConnector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/dataflow/Dataflow.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/dataflow/Dataflow.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/dataflow/Vertex.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/dataflow/Vertex.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function/Function.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function/Function.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function/SquareFunction.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function/SquareFunction.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function/SumFunction.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/function/SumFunction.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/input/FileInput.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/input/FileInput.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/input/Input.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/input/Input.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/main/main.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output/FileOutput.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output/FileOutput.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output/Output.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output/Output.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning/Hash.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning/Hash.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning/PairPartition.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning/Partition.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Aggr.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Aggr.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Attribute.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Attribute.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Cond.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Cond.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Relation.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Relation.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Schema.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/Schema.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/SortAggregation.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/SortAggregation.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/SortMergeJoin.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/relational/SortMergeJoin.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/serialization/Serialization.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/serialization/Serialization.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/MapReduce.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/MapReduce.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/RegexMatching.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/RegexMatching.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/StreamingTest.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/StreamingTest.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/TPCH.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/TPCH.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/WinAgg.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/WinAgg.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/YSB.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/YSB.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/YSB_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/usecases/YSB_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/winagg/EventSharder.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/winagg/EventSharder.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/winagg/WindowedCounter.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/winagg/WindowedCounter.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/EventCollector.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/EventCollector.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/EventFilter.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/EventFilter.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/EventGenerator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/EventGenerator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/FullAggregator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/FullAggregator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/PartialAggregator.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/PartialAggregator.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/SHJoin.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo/SHJoin.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m/EventFilter_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m/EventFilter_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m/FullAggregator_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m/FullAggregator_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m/WinJoinYSB_m.cpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/yahoo_m/WinJoinYSB_m.hpp">
+			<Option target="AIR"/>
+		</Unit>
+		<Unit filename="/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
