@@ -1,8 +1,8 @@
 CMakeFiles/AIR.dir/src/output/Output.o: \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output/Output.cpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/output/Output.cpp \
  /usr/include/stdc-predef.h \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output/Output.hpp \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/output/../communication/Window.hpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/output/Output.hpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/output/../communication/Window.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

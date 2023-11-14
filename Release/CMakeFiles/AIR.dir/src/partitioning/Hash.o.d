@@ -1,8 +1,8 @@
 CMakeFiles/AIR.dir/src/partitioning/Hash.o: \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning/Hash.cpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/partitioning/Hash.cpp \
  /usr/include/stdc-predef.h \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning/../configuration/HashConfig.hpp \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/partitioning/Hash.hpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/partitioning/../configuration/HashConfig.hpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/partitioning/Hash.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

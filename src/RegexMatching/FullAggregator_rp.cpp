@@ -191,6 +191,7 @@ void FullAggregatorRP::streamProcess(int channel)
 			}
 
 			long int time_now = (long int)(MPI_Wtime() * 1000.0);
+			
 
 			while (!completed_windows.empty())
 			{
@@ -203,7 +204,7 @@ void FullAggregatorRP::streamProcess(int channel)
 				{
 					eventReg.WID = WID;
 					eventReg.count = WIDtoIHM_it->second.first;
-					cout<<"Current time: "<<time_now<<" Current Window Latest Event Time: "<<WIDtoIHM_it->second.second<<endl;
+					cout<<"Current time: "<<time_now<<" Current Window Latest Event Time: "<<WIDtoIHM_it->second.second<<" window id: "<< eventReg.WID <<endl;
 					cout<<endl;
 					eventReg.latency = (time_now - WIDtoIHM_it->second.second);
 							 // remove from outer map

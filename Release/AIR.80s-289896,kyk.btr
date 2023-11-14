@@ -1,0 +1,12 @@
+
+AIR:289896 terminated with signal 11 at PC=7f20e3120dd7 SP=7f20d3e23a98.  Backtrace:
+/lib/x86_64-linux-gnu/libc.so.6(+0x1a0dd7)[0x7f20e3120dd7]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x217c7b)[0x7f20e360bc7b]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x234dd8)[0x7f20e3628dd8]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x23530f)[0x7f20e362930f]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x2121cae)[0x7f20e5515cae]
+/lib/x86_64-linux-gnu/libmpich.so.12(+0x20ffb03)[0x7f20e54f3b03]
+/lib/x86_64-linux-gnu/libmpich.so.12(MPI_Recv+0x47c)[0x7f20e350646c]
+./AIR(_ZN6Vertex25startListenerThreadStreamEPv+0xd0)[0x556fc2043de0]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3)[0x7f20e3014ac3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x126a40)[0x7f20e30a6a40]

@@ -8,6 +8,7 @@
         "string_view": "cpp",
         "ranges": "cpp",
         "span": "cpp",
-        "regex": "cpp"
+        "regex": "cpp",
+        "iosfwd": "cpp"
     }
 }

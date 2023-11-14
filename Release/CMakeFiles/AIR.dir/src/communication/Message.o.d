@@ -1,8 +1,8 @@
 CMakeFiles/AIR.dir/src/communication/Message.o: \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication/Message.cpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/communication/Message.cpp \
  /usr/include/stdc-predef.h \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication/Message.hpp \
- /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/src/communication/Window.hpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/communication/Message.hpp \
+ /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/src/communication/Window.hpp \
  /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

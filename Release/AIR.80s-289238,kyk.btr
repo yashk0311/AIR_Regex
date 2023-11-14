@@ -1,0 +1,7 @@
+
+AIR:289238 terminated with signal 11 at PC=564154c35d51 SP=7fb9a6ffcc48.  Backtrace:
+./AIR(_ZN13Serialization16YSBdeserializeFTEP7MessageP7EventFTi+0x11)[0x564154c35d51]
+./AIR(_ZN16FullAggregatorRP13streamProcessEi+0x3fc)[0x564154c6291c]
+./AIR(_ZN6Vertex26startProcessorThreadStreamEPv+0x1a)[0x564154c27bda]
+/lib/x86_64-linux-gnu/libc.so.6(+0x94ac3)[0x7fb9d0836ac3]
+/lib/x86_64-linux-gnu/libc.so.6(+0x126a40)[0x7fb9d08c8a40]

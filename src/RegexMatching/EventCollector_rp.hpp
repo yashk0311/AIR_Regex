@@ -42,12 +42,18 @@ using namespace std;
 
 class EventCollectorRP: public Vertex {
 
+private:
+	ofstream lat;
+	ofstream tp;
+	
 public:
 
 	// Global stats
 	long int sum_latency;
 	long int sum_counts;
 	int num_messages;
+
+	
 
 	EventCollectorRP(int tag, int rank, int worldSize);
 

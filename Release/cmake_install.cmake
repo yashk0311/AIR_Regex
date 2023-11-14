@@ -1,4 +1,4 @@
-# Install script for directory: /home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR
+# Install script for directory: /home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yash/Desktop/Clg/7th_Sem/SDSAss3/AIR/Release/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yash/Desktop/Clg/7th_Sem/SDS/Assignment_3/AIR_regex/Release/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
