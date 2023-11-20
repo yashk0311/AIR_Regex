@@ -146,7 +146,7 @@ void EventCollectorRP::streamProcess(int channel)
 				lat << WID_no << ", " << eventPCReg.latency << endl;
 				tp << WID_no << ", " << eventPCReg.count << endl;
 
-				cout << "The WID is: " << WID_no << endl;
+				cout << "The WID is: " <<eventPCReg.WID << endl;
 				cout << "Latency of this window: " << eventPCReg.latency << endl;
 				cout << "The number of events in that window id is: " << count << endl;
 				cout << "Total latency uptil this window is: " << sum_latency << endl;

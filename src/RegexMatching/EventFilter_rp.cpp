@@ -166,9 +166,10 @@ void EventFilterRP::streamProcess(int channel)
 			for (vector<Vertex *>::iterator v = next.begin(); v != next.end();
 				 ++v)
 			{
-
-				int idx = n * worldSize + 0; // always keep workload on same rank
-
+				int wid = eventRG.event_time/AGG_WIND_SPAN;
+				int idx =  n *  worldSize + 0; // always keep workload on same rank
+				// int idx =  wid % worldSize + 0; // always keep workload on same rank
+				
 				if (PIPELINE)
 				{
 
@@ -189,6 +190,8 @@ void EventFilterRP::streamProcess(int channel)
 				{
 
 					// Normal mode: synchronize on outgoing message channel & send message
+					
+					// cout<<"Window id: "<<wid<<" Time stamp: "<<eventRG.event_time<<endl;
 					pthread_mutex_lock(&senderMutexes[idx]);
 					outMessages[idx].push_back(outMessage);
 

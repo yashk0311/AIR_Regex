@@ -73,7 +73,7 @@ void FullAggregatorRP::streamProcess(int channel)
 	Serialization sede;
 
 	WIDtoWrapperUnitHMap::iterator WIDtoWrapperUnit_it;
-	OuterHMapReg::iterator WIDtoIHM_it;
+	OuterHMapReg::iterator  WIDtoIHM_it;
 	InnerHMap::iterator CIDtoCountAndMaxEventTime_it;
 
 	WrapperUnit wrapper_unit;
@@ -140,7 +140,6 @@ void FullAggregatorRP::streamProcess(int channel)
 						{
 							completed_windows.push_back(WID);
 							WIDtoWrapperUnit.erase(WID);
-							// cout << "____WID COMPLETE: " << WID << endl;
 						}
 					}
 					else
@@ -161,7 +160,6 @@ void FullAggregatorRP::streamProcess(int channel)
 			outMessage = new Message(sizeof(EventPC) * 100); // create new message with max. required capacity
 
 			int event_count = (inMessage->size - offset) / sizeof(EventPA);
-			// cout << "EVENT_COUNT: " << event_count << endl;
 
 			pthread_mutex_lock(&WIDtoIHM_mutex); //===========================================================================
 
@@ -178,7 +176,7 @@ void FullAggregatorRP::streamProcess(int channel)
 				{
 
 					WIDtoIHM_it->second.first = WIDtoIHM_it->second.first + 1;
-					WIDtoIHM_it->second.second = max(eventFT.event_time, WIDtoIHM_it->second.second);
+					WIDtoIHM_it->second.second = min(eventFT.event_time, WIDtoIHM_it->second.second);
 				}
 				else
 				{ // new entry in outer hashmap!
